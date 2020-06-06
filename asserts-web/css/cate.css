@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+body{
+    font-family: 'Balsamiq Sans', cursive;
+    background-color:#b9bbc2 ;
+}
+a{
+    text-decoration: none;
+    color: #b9bbc2;
+    transition: color .5s ease-in-out;
+}
+nav{
+    background-color: #fe9048;
+}
+.JOKO
+{
+   padding: 25px 0px;
+}
+.headi
+{
+    padding-top: 10px !important;
+}
+.bte a i
+{
+    padding-left: 5px;
+}
+.input-group-text i
+{
+    justify-content: space-around !important;
+    padding-left: 5px;
+    
+}
+
+   /* new section */
+.roun .card
+{
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    padding: 10x 5px !important;
+}
+.card img
+{
+   margin: 5px 10px 5px 5px;
+}
+  
+
+.card .text
+{
+   margin:   14px 10px 5px 5px;;
+}
+      /* Cateee */
+
+
+.chotu
+{
+    padding: 50px 10px;
+    background-color: #fe9048;
+}      
+.smal
+
+{
+    columns: white;
+    padding: 50px 10px;
+    background-color: #fe9048 !important;
+    
+}      
+
+ /* Flash Sale */
+ .clo
+ {
+    color: #fe9048;
+ }
+ .sale
+ {
+     color: #fe9048;
+     padding-top: 5px;;
+ }
+.flee
+{
+ border-radius: 5px; 
+ background-color: #fe9048; 
+ padding: 5px 10px 0px 10px;
+  width: 50px;
+   height: 40px;
+   align-items: center; 
+   margin-right: 10px;
+   text-align: center;
+   color: white;
+}
+
+
+
+
+/* addto */
+.addto
+{
+    padding: 80px 10px;
+}
+.addto h1
+{
+    color: #fe9048;
+}
+.addto p 
+{
+    color: #fe9048;
+}
+.sliderbox
+{
+     margin-top: 10px;
+    max-width: 300px;
+    height: 340px;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+
+
+}
+.sliderbox:hover{
+    box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.40);
+}
+.sliderbox:hover .img-box img
+{
+    transform: scale(1.07);
+    transition: all ease 0.5s;
+}
+.cart:hover{
+    transform: scale(1.1);
+    background-color: #fe9048;
+    box-shadow: 2px 2px 12px rgba(47, 47, 47, 0.40);
+     color: white;
+}
+.cart:hover a{
+   
+     color: white;
+}
+
+
+
+.sliderbox  a{
+    text-decoration: none;
+    text-align: center;
+}
+.img-box img
+{
+  height: auto;
+  max-width: 70%;
+  
+}
+.time
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #f16007;
+    font-size: 12px;
+}
+.detail
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   box-sizing: border-box;
+   font-size: 13px;
+   line-height: 35px; 
+}
+.price
+{
+    color: white;
+    color: grey;
+    line-height: 20px;
+}
+.cart
+{
+    position: absolute;
+    bottom: 0px;
+    height: 45px;
+    background-color: #fe9048;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none !important;
+}
+.cart a
+{
+    color: white;
+    outline: none;
+}
+.usercheck
+{
+    border-radius: 50px;
+    background-color: #fe9048;
+    padding: 4px;
+    
+    align-items: center;
+}
+.usercheck a
+{
+    color: white;
+    font-size: 12px;
+}
+
+/* footer */
+.foot
+{
+    padding: 100px 10px 0px;
+    background-color: #ECF0F1 ;
+    
+}
+.foot h5{
+    color:#fe9048 ;
+}
+.foot p
+{
+    color: #6c757d;
+}
+.foot ul li a{
+    color: #6c757d;
+}  
+
+.icoo
+{
+    margin-top: 50px;
+    padding-top: 50px;
+    
+}
+.icoo .fa-facebook-f,.fa-twitter,.fa-google-plus-g,.fa-linkedin-in,.fa-instagram
+{
+   
+    color:#fe9048 ;
+}
+.copyright
+
+{
+    margin-top: 50px;
+    padding: 20px 70px;
+    background-color: #fe9048;
+    color: white;
+}
+.copyright a
+
+{
+   color: white;  
+}
+@media(min-width:768px) and (max-width:991px)
+{
+  
+  .navbar-text a 
+  {
+      display: none;
+     
+  }
+  .sliderbox
+{
+    flex-wrap: wrap;
+}
+.sliderbox
+{
+     margin-top: 10px;
+    max-width: 300px;
+    max-height: 320px;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+
+
+}
+ 
+}
+@media(min-width:575px) and (max-width:767px)
+{
+  
+.sliderbox
+{
+    flex-wrap: wrap;
+}
+.sliderbox
+{
+     margin-top: 10px;
+     max-width: 270px;
+height: 340px;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+
+
+}
+ 
+}
+@media(min-width:480px) and (max-width:574px)
+{
+  
+    .sliderbox
+    {
+        flex-wrap: wrap;
+    }
+  
+}
+@media(max-width:479px){
+  
+ 
+}

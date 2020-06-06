@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+a{
+    text-decoration: none;
+    color: #b9bbc2;
+    transition: color .5s ease-in-out;
+}
+nav{
+    background-color: #fe9048;
+}
+.kato
+{
+ font-size: 50px;
+ font-weight: 800;
+}
+.JOKO
+{
+   padding: 25px 0px;
+}
+.headi
+{
+    padding-top: 10px !important;
+}
+.bte a i
+{
+    padding-left: 5px;
+}
+.input-group-text i
+{
+    justify-content: space-around !important;
+    padding-left: 5px;
+    
+}
+a:hover{
+    color:  #fe9048 !important;
+}
+.navbar-brand ,.nav-link
+{
+    color: white !important;
+}
+
+.navbar-text a
+{
+    padding-right: 5px;
+}
+.bgimg
+{
+   
+   background-image:url("../images/main.jpeg") ; 
+   background-size:cover;
+  
+  
+   background-attachment: fixed;
+   width: 100%;
+   height: 660px;
+
+   
+}
+/* .overly
+{
+    position: absolute;
+    top: 30;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    height: 605px;
+    width: 100%;
+    opacity: 1;
+    transition: 0.5s ease;
+    background: rgba(0,0,0,0.5);
+    background-attachment: fixed;
+   
+    
+} */
+
+.hearderset
+{
+    padding-top:200px ;
+    box-sizing: border-box;
+}
+.hearderset h2{
+    font-size: 32px;
+    color: white;
+
+    
+}
+.hearderset h1{
+    font-size: 50px;
+    color: white;
+
+}
+
+
+
+       /* Flash Sale */
+        .sale
+        {
+            color: #fe9048;
+            padding-top: 5px;;
+        }
+       .flee
+       {
+        border-radius: 5px; 
+        background-color: #fe9048; 
+        padding: 5px 10px 0px 10px;
+         width: 50px;
+          height: 40px;
+          align-items: center; 
+          margin-right: 10px;
+          text-align: center;
+          color: white;
+       }
+
+
+
+
+
+
+
+
+
+         /* our Services */
+
+
+
+.ourservices
+
+{
+    margin-top: 30px;
+    padding: 30px 0px 0px;
+}s
+ 
+.rowsetting h2
+{
+   
+   font-weight: bold;
+   font-size: 20px;
+
+
+}  
+.ourservices h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fe9048 ;
+} 
+.ourservices p{
+       color: #6c757d;
+}     
+.imgsetting
+{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: #fe9048;
+    
+}
+.cardo
+{
+    padding: 20px;
+    box-shadow: inset 7px 5px 10px rgba(0, 0, 0, 0.1),
+    inset -7px -5px 10px rgba(225, 225, 225, 0.5)  ;
+}
+.fa-clock,.fa-headphones-alt,.fa-hand-holding-usd
+{
+    margin-top: 25px;
+    align-items: center;
+}
+
+
+        /* caterious */
+
+.Caterious 
+{
+    margin-top: 70px;;
+    background-color: #ECF0F1 ;
+    
+    padding: 70px 0px 100px;
+}       
+
+.Caterious  h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fe9048 ;
+} 
+.nee{
+   
+    color: #6c757d;
+}
+.card
+{
+    margin-top: 30px;
+    
+    
+}
+
+.ioo
+{
+    background-color: #fe9048 !important;
+   justify-content: space-between !important;
+
+    
+}
+.esko{
+    background-color: #fe9048 !important;
+    padding: 10px;
+}
+
+
+                   /* Newarrival */
+
+
+.Newarrival{
+    padding: 50px 10px;
+} 
+.Newarrival h1{
+    color: #fe9048 ;
+}                  
+
+.Newarrival p{
+    color: #6c757d;
+}  
+
+
+               /* <!-- contact us --> */
+
+ .contactus
+ {
+     padding: 70px;;
+     background-color: #fe9048!important;
+ }  
+ .fa-envelope
+ {
+  color: #fe9048 ;   
+ }       
+
+
+          
+
+.foot
+{
+    padding: 100px 10px 0px;
+    background-color: #ECF0F1 ;
+    
+}
+.foot h5{
+    color:#fe9048 ;
+}
+.foot p
+{
+    color: #6c757d;
+}
+.foot ul li a{
+    color: #6c757d;
+}  
+
+.icoo
+{
+    margin-top: 50px;
+    padding-top: 50px;
+    
+}
+.icoo .fa-facebook-f,.fa-twitter,.fa-google-plus-g,.fa-linkedin-in,.fa-instagram
+{
+   
+    color:#fe9048 ;
+}
+.copyright
+
+{
+    margin-top: 50px;
+    padding: 20px 70px;
+    background-color: #fe9048;
+    color: white;
+}
+.copyright a
+
+{
+   color: white;  
+}
+
+
+           /* Media Quries */
+
+  @media(min-width:992px)
+  {
+    .bte{
+        margin: 0px;
+    }
+    .kato
+    {
+      margin: 0px; 
+    }
+    .navbar-text a 
+    {
+        padding: 0px;
+       
+    }
+   
+  }         
+  @media(min-width:768px) and (max-width:991px)
+  {
+    
+    .navbar-text a 
+    {
+        display: none;
+       
+    }
+   
+  }
+  @media(min-width:575px) and (max-width:767px)
+  {
+    
+    .bte{
+        margin: 0px;
+    }
+    .kato
+    {
+      margin: 0px; 
+    }
+    .eskod{
+        flex-wrap: wrap !important;
+        padding-top: 10px !important;
+        margin-top: 10px !important;
+    }
+   
+   
+  }
+  @media(min-width:480px) and (max-width:574px)
+  {
+    
+    
+    .eskod{
+        flex-wrap: wrap !important;
+        padding-top: 10px !important;
+        margin-top: 10px !important;
+    }
+    #Categrious
+    {
+        padding-top: 10px;
+    }
+   
+  }
+@media(max-width:479px){
+    
+    .bte {
+
+        align-items: center;
+    }
+
+
+
+    .eskod {
+        flex-wrap: wrap !important;
+        padding-top: 10px !important;
+        margin-top: 10px !important;
+    }
+    #Categrious
+    {
+        padding-top: 10px;
+    }
+  }
